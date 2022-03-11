@@ -1,0 +1,20 @@
+html { 
+    background: url(https://media.nbcphiladelphia.com/2021/10/NBCOLY-2022-Beijing20Default20Hero20Image201920x1080px_0.jpg?quality=85&strip=all&resize=1200%2C675) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+#mc {
+    background-color: rgb(175, 185, 190);
+    border: 10px solid rgb(154, 160, 159);
+    color: white;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+h1 {
+    background-color: white;
+    text-decoration: underline;
+    color: grey
+}

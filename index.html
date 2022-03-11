@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Project 81</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<h1>The Olympics</h1>
+<br><br><br><br><br><br><br><br>
+<canvas id="mc" width="800" height="600"></canvas>
+</body>
+<script>
+
+var canvas = document.getElementById("mc");
+var contex = canvas.getContext("2d");
+contex.beginPath();
+contex.strokeStyle = "blue"
+contex.lineWidth = 5;
+contex.arc(200, 200, 40, 0, 2*Math.PI);
+contex.stroke();
+
+contex.beginPath();
+contex.strokeStyle = "black"
+contex.lineWidth = 5;
+contex.arc(300, 200, 40, 0, 2*Math.PI);
+contex.stroke();
+
+contex.beginPath();
+contex.strokeStyle = "red"
+contex.lineWidth = 5;
+contex.arc(400, 200, 40, 0, 2*Math.PI);
+contex.stroke();
+
+contex.beginPath();
+contex.strokeStyle = "yellow"
+contex.lineWidth = 5;
+contex.arc(250, 250, 40, 0, 2*Math.PI);
+contex.stroke();
+
+contex.beginPath();
+contex.strokeStyle = "green"
+contex.lineWidth = 5;
+contex.arc(350, 250, 40, 0, 2*Math.PI);
+contex.stroke();
+
+</script>
+</html>
